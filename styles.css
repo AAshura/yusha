@@ -3,6 +3,7 @@
     
     
     
+    
 }
 .h1{font-family: 'Montserrat', sans-serif;
     font-weight: 900;
@@ -14,11 +15,13 @@ body {
     max-width: 100%;
     overflow-x: hidden;
    font-family: 'Montserrat', sans-serif;
+   
 }
 
-.img{width: 41rem; position: relative;
+.img{width: 41rem; position: absolute;
 padding-top: 4rem;
-padding-right: 4rem; }
+padding-right: 4rem; 
+}
 
 .row{padding-bottom: 2em; 
 }
@@ -42,12 +45,17 @@ font-family: 'ubuntu', sans-serif;}
 padding: 7% 10%; 
 text-align: center; 
 line-height: 1rem; 
-padding-bottom: 0;}
+padding-bottom: 0;
+background-color: white;
+position:relative;
+
+z-index: 2;}
  
 
 h3{font-family: 'montserrat', sans-serif;
  font-weight: bold;
-font-size: 1.5rem;}
+font-size: 1.5rem;
+}
 #fea{margin-bottom: 5%;}
 
 p{color: #8f8f8f;}
@@ -62,6 +70,7 @@ margin-bottom: 1rem;}
 text-align: center;
 background-color: #222831;
 color: white;
+
 
 }
 .carousel.slide{padding: 6% 10%; }
@@ -126,3 +135,88 @@ h3.h3{text-align:center;margin:1em;text-transform:capitalize;font-size:1.7em;}
 @media only screen and (max-width:990px){.product-grid{margin-bottom:30px}
 }
 
+
+
+/* for mobile */
+@media (max-width:990px) 
+{
+    #title{text-align: center;}
+    
+.img {position:relative;
+width: 28rem;
+height: 20rem;
+padding-right:5rem ;
+
+
+}
+
+#fea{margin-bottom: 5rem;}
+.row{ padding:3rem;
+}
+.carousel-inner{padding: 3rem ;}
+
+.navbar-nav.ms-auto{text-align: right;}
+
+.col-lg-6{padding-left: 0;}
+
+.container{padding-bottom: 0%;}
+
+#container-mobile{ padding-bottom: 0;}
+#container-mobile-2{padding-top: 0;}
+
+#headingss{font-size: 2rem;}
+
+}
+
+
+/* footer */
+#cta{
+background-color: #222831;    
+text-align: center;
+font-family:'Montserrat', sans-serif ;
+color:cornsilk;
+padding: 7% 15%;
+
+
+}
+
+/* footer */ 
+#footer{padding: 6% 20%;
+background-color: white;
+text-align: center;}
+
+#boton{margin: 2% 1%;}
+
+h3{font-family:'Montserrat', sans-serif ;
+font-weight: 900;
+font-size: 4rem;
+padding-bottom: 4%;}
+
+.footicon{padding: 1%;
+color:#30475e}
+
+.footicon:hover{color: #222831;}
+
+
+#headingss{font-family:'Montserrat', sans-serif;
+font-size: 3rem;
+font-weight: 700;}
+
+#container{padding-top: 5%; 
+margin-top: 2%; 
+padding-bottom: 1; 
+}
+
+#container2{margin-bottom: 2%;
+padding-bottom: 6%;
+}
+
+
+
+h3{font-family: 'montserrat', sans-serif;
+ font-weight: bold;
+font-size: 1.5rem;
+}
+#container-heading{font-family: 'montserrat', sans-serif;
+ font-weight: bold;
+font-size: 3rem;}
